@@ -1,4 +1,3 @@
 oauthlib
-requests --upgrade
 boto
 pip install pysftp
