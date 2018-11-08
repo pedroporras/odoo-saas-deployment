@@ -9,6 +9,7 @@ cchardet
 client
 suds
 urllib3
+lxml==3.8.0
 signxml
 xmlsig
 num2words
