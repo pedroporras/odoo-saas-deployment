@@ -15,3 +15,5 @@ ast
 num2words
 xlsxwriter
 flask-io
+oscrypto
+simplejson
