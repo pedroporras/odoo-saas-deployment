@@ -11,7 +11,6 @@ suds
 urllib3
 signxml
 xmlsig
-ast
 num2words
 xlsxwriter
 flask-io
