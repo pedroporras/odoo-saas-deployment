@@ -1,3 +1,17 @@
 oauthlib
 boto
 pysftp
+xmltodict
+dicttoxml
+pyqrcode
+base64
+hashlib
+cchardet
+suds
+urllib3
+signxml
+ast
+pysftp
+num2words
+xlsxwriter
+io
