@@ -10,6 +10,9 @@ apt-get update
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/it-projects-llc/odoo-saas-tools.git odoo-saas-tools"
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/OCA/e-commerce.git odoo-repo/e-commerce"
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/it-projects-llc/access-addons.git odoo-repo/access-addons"
+su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/OCA/contract.git odoo-repo/contract"
+
+
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/odoo-saas-requirements.txt -O /tmp/rp-saas.txt
 pip install requests --upgrade
 pip install -r /tmp/rp-saas.txt
