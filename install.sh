@@ -1,8 +1,8 @@
 #!/bin/bash
 echo """Implemententacion de Odoo Saas, librerias, modulos y dependencias
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/install.sh -O saas-install.sh
-chmod +x install.sh
-./install.sh myusros odoo_version  # Change 'myusros' to use your custom OS' user name
+chmod +x saas-install.sh
+./saas-install.sh myusros odoo_version  # Change 'myusros' to use your custom OS' user name
 """
 export USER=$1
 export SAAS_VERSION=$2
