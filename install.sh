@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/o
 pip install requests --upgrade
 pip install -r /tmp/rp-saas.txt
 
-apt-get -y install nginx
+apt-get install -y nginx
 cd /etc/nginx
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/odoo-saas -O /etc/nginx/sites-enabled/odoo-saas
 mv /etc/nginx/sites-enabled/odoo-saas default
