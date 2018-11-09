@@ -23,7 +23,7 @@ pip install -r /tmp/rp-saas.txt
 apt-get install -y nginx
 cd /etc/nginx
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/odoo-saas -O /etc/nginx/sites-enabled/odoo-saas
-mv /etc/nginx/sites-enabled/odoo-saas default
+mv /etc/nginx/sites-enabled/odoo-saas /etc/nginx/sites-enabled/default
 nginx -t
 service nginx start
 /etc/init.d/nginx reload
