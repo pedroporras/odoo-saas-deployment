@@ -14,6 +14,7 @@ su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https:
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/OCA/e-commerce.git odoo-repo/e-commerce"
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/it-projects-llc/access-addons.git odoo-repo/access-addons"
 su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/OCA/contract.git odoo-repo/contract"
+su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https://github.com/it-projects-llc/website-addons.git odoo-repo/website-addons"
 
 
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/odoo-saas-requirements.txt -O /tmp/rp-saas.txt
