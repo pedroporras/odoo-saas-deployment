@@ -19,6 +19,7 @@ su - ${USER} -c "git clone -b ${SAAS_VERSION}  --single-branch --depth=10 https:
 
 wget https://raw.githubusercontent.com/pedroporras/odoo-saas-deployment/master/odoo-saas-requirements.txt -O /tmp/rp-saas.txt
 pip install requests --upgrade
+pip install client
 pip install -r /tmp/rp-saas.txt
 
 apt-get install -y nginx
