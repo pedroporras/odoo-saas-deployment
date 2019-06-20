@@ -9,4 +9,14 @@ Para el archivo odoo-server.service
   - Si se ejecuta correctamente ejecutamos systemctl enable odoo-server
   
   
+Para el archivo .odoorc
+  - Se debe cambiar la linea de db_host
+  - Se debe cambiar la linea de db_name
+  - Se debe cambiar la linea de db_password
+  - Se debe cambiar la linea de db_user
+  - Se debe cambiar la linea de admin_passwd
+  - Se debe cambiar la linea de db_port
+  - Se debe cambiar la linea de workers
+  
+  
 
