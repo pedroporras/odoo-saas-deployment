@@ -9,7 +9,7 @@ cchardet
 client
 suds-jurko
 urllib3
-lxml==3.8.0
+lxml==4.6.3
 signxml
 xmlsig
 num2words
